@@ -4,7 +4,7 @@
     display: none;
     color: black;
     border-radius: 2px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 #check{
     display: none;
@@ -49,11 +49,11 @@
     padding: 0;
 }
 .herosection img{
-    height: 250px;
+    height: 230px;
 
 }
 .about{
-    padding: 0 30px;
+    padding: 0 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,8 +104,8 @@
 .message{
     border-top: 1px solid white;
     padding-top: 20px;
-    width: 100%;
-    padding: 10px 60px;
+    width: 60%;
+    padding: 10px 6 0px;
 }
 
 .links i{
