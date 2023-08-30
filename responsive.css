@@ -1,0 +1,147 @@
+.checkbtn{
+    font-size: large;
+    padding: 10px;
+    display: none;
+    color: black;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+#check{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .navlinks{
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        top: 240px;
+        height: 5px;
+        background-color: gray; 
+        width: 100%;
+    }
+     .navlinks a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 500px;
+        background-color:gray;
+
+    }  
+    .navlinks a:hover{
+        background-color: white;
+    }
+.checkbtn{
+    display: block;
+}
+#check:checked~.navlinks{
+    display: flex;
+}
+.herocontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.herocontent{
+    padding: 0;
+}
+.herosection img{
+    height: 250px;
+
+}
+.about{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mans {
+    width: 100%;
+}
+.mans p {
+    width: 100%;
+    text-align: center;
+
+}
+.about-us{
+    padding: 0;
+    margin-left: 0;
+
+}
+.about-us p{
+    text-align: center;
+    width: 100%;
+}
+
+.about-us h6{
+    padding: 20px 20px 20px 140px;
+    
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding:  10px 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.news{
+    width: 100%;
+    padding:10px 60px;
+}
+.contact{
+    border-top: 1px solid white;
+    padding-top: 20px;
+    width: 100%;
+    padding: 10px 30px;
+}
+.message{
+    border-top: 1px solid white;
+    padding-top: 20px;
+    width: 100%;
+    padding: 10px 60px;
+}
+
+.links i{
+    height: 2vh;
+    
+}
+.links{
+    padding: 0px;
+    display: flex;
+}
+.icons{
+    display: flex;
+    flex-direction:column;
+    padding: 0px;
+    
+}
+.content{
+    padding: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
